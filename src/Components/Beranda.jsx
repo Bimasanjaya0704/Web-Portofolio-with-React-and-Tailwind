@@ -2,14 +2,13 @@ import image from "../Assets/bima.png";
 import Typical from "react-typical";
 
 const Beranda = () => {
-
   return (
     <div>
       <div className="pt-20">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
-              <h1 className="text-base uppercase font-semibold text-dark  lg:text-lg">
+              <h1 className="text-base uppercase font-semibold text-dark lg:text-lg">
                 Halo Semua, Saya
                 <span className="block font-bold uppercase text-primary text-3xl mt-3 md:text-4xl lg:text-5xl">
                   Bima Sanjaya
@@ -36,17 +35,22 @@ const Beranda = () => {
                 dengan sentuhan desain yang
                 <span className="text-primary"> kreatif</span>
               </p>
-
               <a
                 href="#"
-                className="text-base font-semibold text-white bg-primary py-3 px-8  rounded-full hover:shadow-lg hover: opacity-90 "
+                className="text-base font-semibold text-primary bg-white border-2 border-primary py-3 px-8 mx-3  rounded-full hover:shadow-xl hover:bg-primary hover:text-white"
+              >
+                Download CV
+              </a>
+              <a
+                href="#"
+                className="text-base font-semibold text-white bg-primary py-3 px-8  rounded-full hover:shadow-xl hover:bg-white hover:text-primary hover:border-2 hover:border-primary"
               >
                 Contact Me!
               </a>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="relative mt-10 lg:mt-9 lg:right-0">
-                <img src={image} alt="image" className="max-w-full mx-auto animate-bounce" />
+                <img src={image} alt="image" className="max-w-full mx-auto" />
                 <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125 lg:scale-150">
                   <svg
                     width="400"

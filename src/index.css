@@ -3,9 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     font-family: 'Fira Code', sans-serif;
-}
+} */
 
 .humberger-line {
     @apply w-[30px] h-[2px] my-2 block bg-dark 

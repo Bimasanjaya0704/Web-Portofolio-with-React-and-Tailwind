@@ -10,7 +10,7 @@ const NavBar = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 lg:block">
               <a href="javascript:void(0)">
-                <h2 className="text-xl font-bold text-primary md:text-2xl lg:text-3xl">
+                <h2 className="text-xl font-bold text-primary animate-fade-down animate-once animate-ease-linear md:text-2xl lg:text-3xl ">
                   Portofolio
                 </h2>
               </a>

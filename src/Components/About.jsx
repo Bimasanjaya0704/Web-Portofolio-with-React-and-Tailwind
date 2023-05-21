@@ -21,7 +21,7 @@ const About = () => {
                 omnis id. Molestiae numquam facere quasi quisquam!
               </p>
             </div>
-            <div className="w-ful px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-1/2">
               <h3 className="font-semibold text-dark text-base uppercase mb-2 max-w-md lg:text-xl lg:pt-7">
                 Mari Berteman
               </h3>
